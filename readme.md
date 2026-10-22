@@ -34,7 +34,7 @@ This repository is organized to make it easy for supervisors, mentors, and fello
 
 | Phase | Duration | Focus Area | Status |
 |---|---|---|---|
-| Phase 1 | 2 weeks | HTML5 and CSS3 | ⬜ |
+| Phase 1 | 2 weeks | HTML5 and CSS3 | 🟡 |
 | Phase 2 | 1 week | Bootstrap 5 | ⬜ |
 | Phase 3 | 2 days | Git and GitHub | ⬜ |
 | Phase 4 | 2 weeks | JavaScript Fundamentals | ⬜ |
