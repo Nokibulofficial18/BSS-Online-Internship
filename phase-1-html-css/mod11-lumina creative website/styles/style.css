@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Utility Classes */
+.bg-dark{
+    background: #fcf5e9;
+    color: #fff;
+}
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -71,8 +76,19 @@ img{
      font-weight: 600;
 }
 
-
-
+/* Hero Section */
+.hero{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h2{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: normal;
+}
 /* Media Queries */
 
 @media (max-width: 768px){
@@ -82,5 +98,12 @@ img{
     }
     .header .logo{
         margin-bottom: 2rem;
+    }
+    .hero{
+        height: 300px;
+    }
+
+    .hero h2{
+        font-size: 1.8rem;
     }
 }
