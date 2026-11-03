@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #f4f4f4;
+}
+
+.item{
+    background-color: coral;
+    padding: 1.2rem;
+    border: 1px solid #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 3fr;
+    grid-auto-rows: 4fr;
+    gap: 1rem;
+}
