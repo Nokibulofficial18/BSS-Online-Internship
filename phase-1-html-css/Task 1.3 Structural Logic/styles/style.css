@@ -32,7 +32,7 @@ body{
 }
 
 .hour-hand{
-    width: 1px;
+    width: 3px;
     height: 100px;
     background-color: blue;
     animation:rotate-clock 43200s linear infinite;
@@ -40,7 +40,7 @@ body{
 
 
 .minute-hand{
-    width: 1px;
+    width: 3px;
     height: 150px;
     background-color: red;
     animation:rotate-clock 3600s linear infinite;
