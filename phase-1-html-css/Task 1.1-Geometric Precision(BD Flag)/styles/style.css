@@ -42,18 +42,18 @@ main {
 .green-background {
     width: 100%;
     aspect-ratio: 5 / 3;
-    background-color: #006a4e;
+    background-color: #008000;
     position: relative;
 }
 
 .red-circle {
     width: 36.67%;
     aspect-ratio: 1;
-    background-color: #f42a41;
+    background-color: #ff0000;
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
