@@ -12,6 +12,7 @@
   --primary-color: #3F87F5;
   --secondary-color: #FFF;
   --text: #0A0826;
+  --text-light: #848199
 }
 
 html,
@@ -352,7 +353,136 @@ section {
 
 
 
+.package-section {
+  max-width: 1200px;
+  margin: 5rem auto 7rem;
+}
 
+.package-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 5rem;
+}
+
+.package-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.package-card {
+  position: relative;
+  flex: 1;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  background: var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+
+
+.package-card h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.package-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+
+.package-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin-bottom: 12px;
+}
+
+
+
+.package-card ul {
+  margin-bottom: 18px;
+}
+
+.package-card ul li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: var(--text-light);
+  margin-bottom: 7px;
+}
+
+.package-card ul li i {
+  color: var(--primary-color);
+  font-size: 12px;
+}
+
+
+.package-btn {
+  display: block;
+  text-align: center;
+  background: #FFF5FA;
+  color: var(--primary-color);
+  padding: 9px 12px;
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+
+
+.package-card:hover {
+  background: var(--primary-color);
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(63, 135, 245, 0.3);
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+
+.package-card:hover h2,
+.package-card:hover h3,
+.package-card:hover p,
+.package-card:hover ul li {
+  color: #fff;
+}
+
+.package-card:hover ul li i {
+  color: #fff;
+}
+
+.package-card:hover .package-btn {
+  background: #fff;
+  color: var(--primary-color);
+}
+
+
+
+.hot-badge {
+  position: absolute;
+  top: -12px;
+  right: 10px;
+  background: #FF4E4E;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+
+
+ 
 /* Media Queires */
 
 @media (max-width: 768px) {
@@ -416,7 +546,8 @@ section {
     margin-bottom: 4rem;
   }
 
-  .about-flex {
+  .about-flex
+  {
     flex-direction: column-reverse;
     gap: 2rem;
   }
@@ -453,6 +584,10 @@ section {
 
   .floating-offer p {
     font-size: 10px;
+  }
+  .package-flex {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
 
