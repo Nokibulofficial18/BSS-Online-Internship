@@ -480,7 +480,7 @@ section {
   font-weight: 600;
 }
 
-/* Happy Clients Section Starts */
+/* Happy Clients Section */
 
 .happy-clients {
     max-width: 1200px;
@@ -540,6 +540,100 @@ section {
     color: var(--text-light);
 }
 
+
+/* FAQ Section  */
+
+
+.faq-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4rem;
+}
+
+.faq-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.faq-accordion {
+    flex: 1;
+    min-width: 0;
+}
+
+.faq-item {
+    border: 1px solid #DCE8FF;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    padding: 12px 14px;
+    background: var(--secondary-color);
+}
+
+.faq-item summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary i {
+    font-size: 12px;
+    color: var(--primary-color);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+
+
+.faq-item[open] summary i {
+    transform: rotate(180deg);
+}
+
+.faq-item p {
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--text-light);
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+
+
+.faq-image {
+    flex: 1;
+    min-width: 0;
+}
+
+.faq-image img {
+    width: 100%;
+    aspect-ratio: 1.5 / 1;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+}
 
  
 /* Media Queires */
@@ -667,6 +761,30 @@ section {
         width: 100%;
         max-width: 350px;
         flex: none;
+    }
+
+    .faq-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .faq-image {
+        order: -1;
+        width: 100%;
+    }
+
+    .faq-image img {
+        aspect-ratio: 16 / 9;
+    }
+
+    .faq-accordion {
+        width: 100%;
+    }
+
+    .faq-title {
+        font-size: 24px;
+        margin-bottom: 2rem;
     }
 }
 
