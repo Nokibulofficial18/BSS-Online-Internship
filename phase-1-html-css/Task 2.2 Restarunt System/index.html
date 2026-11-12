@@ -296,10 +296,7 @@
             <!-- Card 1 -->
             <article class="popular-food__card">
               <div class="popular-food__image">
-                <img
-                  src="./images/burger.jpg"
-                  alt="Vegetables Burger"
-                />
+                <img src="./images/burger.jpg" alt="Vegetables Burger" />
               </div>
 
               <span class="popular-food__divider"></span>
@@ -310,7 +307,6 @@
                 Barbecue Italian cuisine pizza
               </p>
             </article>
-
 
             <article class="popular-food__card">
               <div class="popular-food__image">
@@ -325,7 +321,6 @@
                 Barbecue Italian cuisine pizza
               </p>
             </article>
-
 
             <article class="popular-food__card">
               <div class="popular-food__image">
@@ -377,6 +372,82 @@
     </section>
 
     <!-- Popular food section ends -->
+
+    <!-- Booking Section Starts -->
+    <section class="booking" id="booking">
+      <div class="booking__container container">
+        <div class="booking__content">
+          <!-- Section Heading -->
+          <div class="booking__heading">
+            <p class="booking__subtitle">
+              <span class="booking__subtitle-mark"></span>
+              Book Now
+            </p>
+
+            <h2 class="booking__title">BOOK YOUR TABLE</h2>
+
+            <p class="booking__description">
+              Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu
+              leo molestie vel, ornare non id blandit netus.
+            </p>
+          </div>
+
+          <!-- Booking Form -->
+          <form class="booking__form">
+            <div class="booking__form-grid">
+              <input
+                type="text"
+                class="booking__input"
+                name="name"
+                placeholder="Your Name *"
+                required
+              />
+
+              <input
+                type="email"
+                class="booking__input"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+
+              <input
+                type="date"
+                class="booking__input"
+                name="reservation-date"
+                aria-label="Reservation Date"
+                required
+              />
+
+              <select
+                class="booking__input booking__select"
+                name="people"
+                aria-label="Total People"
+                required
+              >
+                <option value="" disabled selected>Total People</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6">6 People</option>
+              </select>
+            </div>
+
+            <textarea
+              class="booking__textarea"
+              name="message"
+              placeholder="Message"
+              rows="4"
+            ></textarea>
+
+            <button type="submit" class="booking__button">BOOK NOW</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Booking Section Ends -->
 
     <script src="./script/script.js"></script>
   </body>
