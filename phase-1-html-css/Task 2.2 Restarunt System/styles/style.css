@@ -243,6 +243,7 @@ button {
 }
 
 .hero__container {
+    position: relative;
     width: 100%;
     max-width: 1200px;
     min-height: 600px;
@@ -259,16 +260,28 @@ button {
     position: relative;
     z-index: 2;
     width: 48%;
+    flex-shrink: 0;
 }
 
 .hero__title {
-    margin-bottom: 15px;
-    color: var(--white);
-    font-family: var(--heading-font);
-    font-size: clamp(48px, 4.5vw, 64px);
-    font-weight: 400;
-    line-height: 1.08;
+  position: relative;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0;
+  color: white;
+
+  width: max-content;
+  max-width: 850px;
+  padding: 12px 20px 12px 0;
+  margin-bottom: 15px;
+
+  background: rgba(189, 43, 33, 0.65);
+
 }
+
+
 
 .hero__title--primary {
     display: block;
@@ -282,6 +295,7 @@ button {
     font-size: 12px;
     font-weight: 400;
     line-height: 1.7;
+
 }
 
 .hero__button {
@@ -318,15 +332,7 @@ button {
     object-fit: cover;
 }
 
-.hero__image-overlay {
-    position: absolute;
-    top: 16%;
-    left: 0;
-    width: 30%;
-    height: 42%;
-    background: rgba(165, 29, 22, 0.78);
-    pointer-events: none;
-}
+
 
 .hero__image-star {
     position: absolute;
