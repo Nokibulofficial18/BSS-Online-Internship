@@ -22,6 +22,7 @@ body {
   color: var(--text);
   line-height: 1.5;
   background: var(--secondary-color);
+  overflow-x: clip;
 }
 
 a {
@@ -238,8 +239,8 @@ section {
 
 .about{
   position: relative;
-  margin-top: 5rem;
-  margin-bottom: 7rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .about-flex {
@@ -355,7 +356,7 @@ section {
 
 .package-section {
   max-width: 1200px;
-  margin: 5rem auto 7rem;
+  margin: 3rem auto 3rem;
 }
 
 .package-title {
@@ -363,7 +364,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   color: var(--text);
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .package-flex {
@@ -437,14 +438,13 @@ section {
   border-radius: 30px;
   font-size: 11px;
   font-weight: 600;
-  transition: all 0.3s ease;
+  transition: all 2000ms ease-in-out;
 }
 
 
 
 .package-card:hover {
   background: var(--primary-color);
-  transform: translateY(-10px);
   box-shadow: 0 10px 25px rgba(63, 135, 245, 0.3);
   border: 1px solid var(--primary-color);
   border-radius: 10px;
@@ -485,7 +485,7 @@ section {
 .happy-clients {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .clients-title {
@@ -688,29 +688,7 @@ section {
 
 @media (max-width: 768px) {
 
-    .footer {
-        min-height: 280px;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .footer-app {
-        align-items: center;
-        order: -1;
-    }
-
-    .footer-copyright {
-        text-align: center;
-    }
-
-    .footer-copyright p {
-        font-size: 10px;
-    }
+    
 
 }
 /* Media Queires */
@@ -864,6 +842,29 @@ section {
         margin-bottom: 2rem;
     }
 
+    .footer {
+        min-height: 280px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer-app {
+        align-items: center;
+        order: -1;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+
+    .footer-copyright p {
+        font-size: 10px;
+    }
     
     
 }
