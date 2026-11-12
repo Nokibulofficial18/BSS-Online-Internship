@@ -129,7 +129,7 @@ button {
     gap: 32px;
     font-family: "Raleway", sans-serif;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .navbar__menu-link {
@@ -168,6 +168,8 @@ button {
 .navbar__mobile-menu {
     display: none;
     position: relative;
+    font-family: "Raleway", sans-serif;
+
 }
 
 .navbar__mobile-menu-toggle {
@@ -276,6 +278,7 @@ button {
     max-width: 430px;
     margin-bottom: 22px;
     color: var(--white);
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.7;
@@ -291,6 +294,7 @@ button {
     color: var(--text-primary);
     font-size: 11px;
     font-weight: 600;
+    font-family: 'Roboto', sans-serif;
     transition: background 0.2s ease,
                 color 0.2s ease;
 }
@@ -355,6 +359,7 @@ button {
     color: #111;
     font-family: var(--heading-font);
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.05;
 }
 
@@ -433,6 +438,7 @@ button {
     background: var(--white);
     border-radius: 12px;
     color: var(--text-primary);
+    font-family: 'Open sans', sans-serif;
 }
 
 .about__badge-ring {
@@ -477,7 +483,7 @@ button {
     border: 0;
     background: transparent;
     color: var(--text-primary);
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 10px;
     font-weight: 500;
     cursor: pointer;
@@ -512,6 +518,7 @@ button {
     margin-bottom: 20px;
     color: var(--muted);
     font-size: 11px;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.8;
 }
 
@@ -541,7 +548,7 @@ button {
     padding: 0 22px;
     background: var(--secondary-color);
     color: var(--text-primary);
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 10px;
     font-weight: 600;
     text-decoration: none;
@@ -560,6 +567,7 @@ button {
     align-items: center;
     gap: 8px;
     color: var(--text-primary);
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-weight: 700;
     white-space: nowrap;
@@ -615,6 +623,7 @@ button {
 .about__feature-text {
     margin: 0;
     color: var(--muted);
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     line-height: 1.5;
 }
@@ -667,6 +676,7 @@ button {
     gap: 9px;
     margin-bottom: 7px;
     color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 600;
 }
@@ -784,6 +794,7 @@ button {
 .popular-food__description {
     margin: 0;
     color: var(--text-primary);
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 1.5;
     text-align: center;
@@ -834,9 +845,9 @@ button {
     gap: 8px;
     margin-bottom: 7px;
     color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 600;
-    font-family: 'Roboto', sans-serif;
 }
 
 .booking__subtitle-mark {
@@ -860,6 +871,7 @@ button {
     max-width: 500px;
     margin: 0;
     color: rgba(255, 255, 255, 0.85);
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     line-height: 1.65;
 }
@@ -887,7 +899,7 @@ button {
     background: transparent;
     color: var(--white);
 
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 10px;
 
     transition: border-color 0.2s ease,
@@ -941,7 +953,7 @@ button {
     background: transparent;
     color: var(--white);
 
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 10px;
 
     transition: border-color 0.2s ease,
@@ -969,7 +981,7 @@ button {
     background: var(--secondary-color);
     color: var(--text-primary);
 
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 10px;
     font-weight: 700;
 
@@ -1031,6 +1043,7 @@ button {
     gap: 10px;
     margin-bottom: 8px;
     color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 600;
 }
@@ -1132,7 +1145,7 @@ button {
 
 .testimonials__text {
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.8;
@@ -1159,6 +1172,7 @@ button {
 .testimonials__customer-location {
     margin: 0;
     font-size: 13px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .testimonials__customer-avatar {
@@ -1242,6 +1256,131 @@ button {
     background: #fff;
     transform: translate(-50%, -50%) scale(1.08);
 }
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    min-height: 380px;
+    padding: 52px 0 28px;
+    overflow: hidden;
+
+    background-color: #111;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.76),
+            rgba(0, 0, 0, 0.80)
+        ),
+        url("../images/footer.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer__container {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__title {
+    max-width: 850px;
+    margin: 0 auto 25px;
+    color: var(--white);
+    font-family: var(--heading-font);
+    font-size: clamp(30px, 2.5vw, 38px);
+    font-weight: 400;
+    line-height: 1.15;
+    text-align: center;
+}
+
+
+.footer__info {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+    gap: 25px;
+    margin-bottom: 58px;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    text-align: center;
+}
+
+.footer__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    font-size: 19px;
+}
+
+.footer__item-title {
+    margin: 0 0 7px;
+    color: var(--white);
+    font-family: var(--heading-font);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.footer__item-text {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    margin-bottom: 12px;
+}
+
+.footer__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    color: var(--white);
+    font-size: 13px;
+    transition: background 0.2s ease,
+                color 0.2s ease,
+                border-color 0.2s ease;
+}
+
+.footer__social-link:hover {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--text-primary);
+}
+
+.footer__copyright {
+    margin: 0;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+
 
 /* media queries */
 
@@ -1459,6 +1598,38 @@ button {
     .testimonials__decoration--right {
         width: 200px;
         right: -90px;
+    }
+
+     .footer {
+        min-height: 360px;
+        padding: 45px 0 25px;
+    }
+
+    .footer__container {
+        padding: 0 25px;
+    }
+
+    .footer__title {
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+
+    .footer__info {
+        gap: 15px;
+        margin-bottom: 45px;
+    }
+
+    .footer__item-title {
+        font-size: 15px;
+    }
+
+    .footer__item-text {
+        font-size: 10px;
+    }
+
+    .footer__social-link {
+        width: 33px;
+        height: 33px;
     }
 }
 
@@ -1922,7 +2093,7 @@ button {
 
     .testimonials__slide {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         min-height: auto;
     }
 
@@ -1985,6 +2156,75 @@ button {
         width: 45px;
         height: 45px;
         font-size: 15px;
+    }
+
+      .footer {
+        min-height: auto;
+        padding: 20px 0 18px;
+
+        background-position: center;
+        background-size: cover;
+    }
+
+    .footer__container {
+        padding: 0 16px;
+    }
+
+
+
+    .footer__title {
+        max-width: 300px;
+        margin-bottom: 25px;
+        font-size: 25px;
+        line-height: 1.25;
+        text-align: center;
+    }
+
+
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 24px;
+    }
+
+    .footer__item {
+        width: 100%;
+    }
+
+    .footer__icon {
+        height: 20px;
+        margin-bottom: 5px;
+        font-size: 17px;
+    }
+
+    .footer__item-title {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .footer__item-text {
+        font-size: 9px;
+        line-height: 1.55;
+    }
+
+
+    .footer__social {
+        gap: 9px;
+        margin-bottom: 9px;
+    }
+
+    .footer__social-link {
+        width: 27px;
+        height: 27px;
+        font-size: 10px;
+    }
+
+
+    .footer__copyright {
+        font-size: 9px;
     }
 }
 
