@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Nokibul Hasan Mojumder Tasir | AI & Software Developer</title>
+  </head>
+  <body>
+    <!-- Navbar Starts -->
+    <nav class="navbar">
+      <div class="navbar__container container">
+        <div class="navbar__right">
+          <!-- Logo -->
+          <div class="navbar__logo">
+            <a href="#home" class="navbar__logo-link">
+              <span class="navbar__logo-icon">&lt;/&gt;</span>
+              <h3 class="navbar__logo-text">Nokibul Hasan Mojumder Tasir</h3>
+            </a>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <div class="navbar__menu">
+            <ul class="navbar__menu-list">
+              <li class="navbar__menu-item">
+                <a href="#home" class="navbar__menu-link active">Home</a>
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#about" class="navbar__menu-link">About</a>
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#experience" class="navbar__menu-link">Experience</a>
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#projects" class="navbar__menu-link">Projects</a>
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#achievements" class="navbar__menu-link"
+                  >Achievements</a
+                >
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#contact" class="navbar__menu-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Desktop CV Button -->
+        <div class="navbar__left">
+          <a
+            class="button button-outline cv-button"
+            href="./assets/cv.pdf"
+            download
+          >
+            Download CV <span>↓</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu & Hamburger Icon -->
+        <div class="navbar__mobile-menu">
+          <button
+            class="navbar__mobile-menu-toggle"
+            type="button"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars fa-2x"></i>
+          </button>
+
+          <!-- Mobile Menu Items -->
+          <div class="navbar__mobile-menu-items">
+            <ul class="navbar__mobile-menu-list">
+              <li class="navbar__mobile-menu-item">
+                <a href="#home" class="navbar__mobile-menu-link">Home</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#about" class="navbar__mobile-menu-link">About</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#experience" class="navbar__mobile-menu-link"
+                  >Experience</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#projects" class="navbar__mobile-menu-link"
+                  >Projects</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#achievements" class="navbar__mobile-menu-link"
+                  >Achievements</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="#contact" class="navbar__mobile-menu-link">Contact</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a
+                  class="button button-outline"
+                  href="./assets/cv.pdf"
+                  download
+                >
+                  Download CV ↓
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <main>
+      <!-- Hero Starts -->
+      <section class="hero" id="home">
+        <div class="hero-grid container">
+          <div class="hero-copy">
+            <span class="eyebrow"><span class="wave">✦</span> Hi, I'm</span>
+            <h1>
+              Nokibul Hasan<br />Mojumder Tasir<span class="cursor">|</span>
+            </h1>
+            <h2>CSE Final-Year Undergraduate at GSTU</h2>
+            <p class="hero-description">
+              A passionate Computer Science student interested in Machine
+              Learning, Computer Vision, NLP and building impactful real-world
+              solutions.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects"
+                >View Projects <span>→</span></a
+              >
+              <a class="button button-outline" href="#contact"
+                ><span class="mail-icon">✉</span> Contact Me</a
+              >
+            </div>
+            <div class="social-links" aria-label="Social links">
+              <a
+                href="https://github.com/Nokibulofficial18"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                >GH</a
+              >
+              <a
+                href="https://www.linkedin.com/in/nokibul-hasan-mojumder-tasir-aa300a21a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                >in</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="portrait-glow"></div>
+            <div class="portrait-frame">
+              <!-- Replace this placeholder with your own portrait image. -->
+              <div class="portrait-fallback">
+                <img src="./assets/profile.jpg" alt="" />
+              </div>
+            </div>
+            <div class="interest-card glass-card">
+              <h3><span>◎</span> Interests</h3>
+              <ul>
+                <li><span>✣</span> ML / DL</li>
+                <li><span>▣</span> Computer Vision</li>
+                <li><span>▤</span> NLP</li>
+                <li><span>◈</span> Full-Stack Web</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="wave-line" aria-hidden="true"></div>
+      </section>
+      <!-- Hero Ends -->
+      <!-- About Starts -->
+      <section class="overview container" id="about">
+        <div class="about-copy">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <span></span>
+          </div>
+          <p>
+            I'm a final-year CSE student at Gopalganj Science and Technology
+            University (GSTU) with a strong interest in AI/ML, Computer Vision,
+            NLP and full-stack development. I love turning ideas into real-world
+            solutions and enjoy working at the intersection of research and
+            product development.
+          </p>
+          <a class="button button-primary button-small" href="#contact"
+            >Let's Connect <span>→</span></a
+          >
+        </div>
+
+        <div class="academic-facts">
+          <div class="fact">
+            <span class="fact-icon">◆</span>
+            <div>
+              <strong>CGPA</strong>
+              <p>3.63 / 4.00</p>
+            </div>
+          </div>
+          <div class="fact">
+            <span class="fact-icon">♜</span>
+            <div>
+              <strong>Department Rank</strong>
+              <p>2nd (across 5 semesters)</p>
+            </div>
+          </div>
+          <div class="fact">
+            <span class="fact-icon">⌖</span>
+            <div>
+              <strong>University</strong>
+              <p>GSTU, Bangladesh</p>
+            </div>
+          </div>
+          <div class="fact">
+            <span class="fact-icon">▦</span>
+            <div>
+              <strong>Status</strong>
+              <p>Final-Year Undergraduate</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills">
+          <div class="section-heading">
+            <h2>Skills &amp; Technologies</h2>
+            <span></span>
+          </div>
+          <div class="skill-grid">
+            <div class="skill"><b class="skill-symbol blue">C</b>C / C++</div>
+            <div class="skill"><b class="skill-symbol yellow">Py</b>Python</div>
+            <div class="skill"><b class="skill-symbol cyan">▤</b>SQL</div>
+            <div class="skill">
+              <b class="skill-symbol yellow">JS</b>JavaScript
+            </div>
+            <div class="skill"><b class="skill-symbol cyan">⚛</b>React</div>
+            <div class="skill"><b class="skill-symbol green">⬡</b>Node.js</div>
+            <div class="skill"><b class="skill-symbol teal">↯</b>FastAPI</div>
+            <div class="skill"><b class="skill-symbol green">◆</b>MongoDB</div>
+            <div class="skill">
+              <b class="skill-symbol white">GH</b>Git &amp; GitHub
+            </div>
+            <div class="skill">
+              <b class="skill-symbol cyan">NP</b>NumPy / Pandas
+            </div>
+            <div class="skill">
+              <b class="skill-symbol cyan">ML</b>TensorFlow / PyTorch
+            </div>
+            <div class="skill"><b class="skill-symbol white">⌘</b>Linux</div>
+          </div>
+        </div>
+      </section>
+      <!-- About Ends -->
+
+      <!-- Experience Starts-->
+      <section class="experience container" id="experience">
+        <div class="section-heading">
+          <h2>Experience &amp; Leadership</h2>
+          <span></span>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card glass-card featured-experience">
+            <div class="experience-top">
+              <div>
+                <h3>Software Engineer Trainee</h3>
+                <a
+                  class="company-link"
+                  href="https://www.linkedin.com/company/bangladesh-software-solution/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Bangladesh Software Solution ↗</a
+                >
+              </div>
+              <span class="experience-date">Nov 2026 – Present</span>
+            </div>
+            <p>
+              Appointed as a Software Engineer Trainee, starting November 2026.
+            </p>
+          </article>
+          <article class="experience-card glass-card">
+            <div class="experience-top">
+              <div>
+                <h3>Programming Trainer &amp; Support Instructor</h3>
+                <span class="company-link">CoderVai</span>
+              </div>
+              <span class="experience-date">Mar 2024 – Present</span>
+            </div>
+            <p>
+              Train learners in C and competitive programming, including
+              algorithms, debugging, and problem-solving strategies.
+            </p>
+          </article>
+          <article class="experience-card glass-card">
+            <div class="experience-top">
+              <div>
+                <h3>Programming Trainer (Volunteer)</h3>
+                <span class="company-link">GSTU</span>
+              </div>
+              <span class="experience-date">Sep 2023 – Jul 2026</span>
+            </div>
+            <p>
+              Trained CSE students in C and competitive programming; supported
+              practice and contest preparation.
+            </p>
+          </article>
+          <article class="experience-card glass-card">
+            <div class="experience-top">
+              <div>
+                <h3>General Secretary</h3>
+                <span class="company-link"
+                  >CSE AI &amp; Innovation Club, GSTU</span
+                >
+              </div>
+              <span class="experience-date">Jul 2026 – Present</span>
+            </div>
+            <p>
+              Helping members learn about AI, Machine Learning, and datathons.
+            </p>
+          </article>
+          <article class="experience-card glass-card">
+            <div class="experience-top">
+              <div>
+                <h3>General Secretary</h3>
+                <span class="company-link">CSE Programming Club, GSTU</span>
+              </div>
+              <span class="experience-date">Jul 2025 – Jul 2026</span>
+            </div>
+            <p>
+              Helped organize programming contests and hackathons, including an
+              intra-university contest; coordinated participants, logistics, and
+              execution.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- Experience Ends -->
+
+      <!-- Training Starts -->
+      <section class="training container" id="training">
+        <div class="section-heading">
+          <h2>Education, Research &amp; Training</h2>
+          <span></span>
+        </div>
+        <div class="training-grid">
+          <article class="training-card glass-card">
+            <span class="training-kicker">2023 – Present</span>
+            <h3>B.Sc. in Computer Science and Engineering</h3>
+            <p>Gopalganj Science and Technology University</p>
+            <strong>CGPA 3.63 / 4.00 · Department Rank 2nd</strong>
+          </article>
+          <article class="training-card glass-card">
+            <span class="training-kicker">2019 – 2021</span>
+            <h3>HSC — Science</h3>
+            <p>Cumilla Government College</p>
+            <strong>GPA 5.00 / 5.00</strong>
+          </article>
+          <article class="training-card glass-card">
+            <span class="training-kicker">March 2026</span>
+            <h3>Data Science and Machine Learning with Python &amp; R</h3>
+            <p>Data Solution-360 · Six-month program</p>
+            <strong
+              >EDA, visualization, statistics, ML model development/evaluation
+              and MLflow</strong
+            >
+          </article>
+          <article class="training-card glass-card">
+            <span class="training-kicker">July 2026 · China</span>
+            <h3>Summer Camp on Artificial Intelligence</h3>
+            <p>Lanzhou University of Technology · China Scholarship Council</p>
+            <strong
+              >International academic and industry-focused AI training</strong
+            >
+          </article>
+          <article class="training-card glass-card">
+            <span class="training-kicker">Ongoing</span>
+            <h3>Medical Imaging Research using ML/AI</h3>
+            <p>Independent / Academic Research</p>
+            <strong
+              >Working on medical imaging research using machine learning and
+              AI.</strong
+            >
+          </article>
+        </div>
+      </section>
+      <!-- Training Ends -->
+
+      <!-- Projects  Starts-->
+      <section class="projects container" id="projects">
+        <div class="section-topline">
+          <div class="section-heading">
+            <h2>Featured Projects</h2>
+            <span></span>
+          </div>
+          <a
+            class="text-link"
+            href="https://github.com/Nokibulofficial18"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View GitHub <span>→</span></a
+          >
+        </div>
+        <div class="project-grid">
+          <article class="project-card glass-card">
+            <div class="project-icon dengue-icon">✳</div>
+            <div class="project-content">
+              <div class="project-title">
+                <h3>DengueAI Pro</h3>
+                <a
+                  href="https://dengueaipro.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open DengueAI Pro"
+                  >↗</a
+                >
+              </div>
+              <p>
+                AI-powered dengue risk prediction, live heatmap and LLM-based
+                dispatch system.
+              </p>
+              <div class="tags">
+                <span>React</span><span>FastAPI</span><span>Leaflet</span
+                ><span>AI/ML</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card glass-card">
+            <div class="project-icon bazaar-icon">▣</div>
+            <div class="project-content">
+              <div class="project-title">
+                <h3>BazaarMind</h3>
+                <a
+                  href="https://github.com/Nokibulofficial18/bazarify-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Find BazaarMind on GitHub"
+                  >↗</a
+                >
+              </div>
+              <p>
+                SME retail technology platform for inventory, sales and business
+                insights.
+              </p>
+              <div class="tags">
+                <span>React</span><span>Node.js</span><span>MongoDB</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card glass-card">
+            <div class="project-icon teamsync-icon">●●</div>
+            <div class="project-content">
+              <div class="project-title">
+                <h3>TeamSync</h3>
+                <a
+                  href="https://github.com/Nokibulofficial18/B2B-Project-Management"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Find TeamSync on GitHub"
+                  >↗</a
+                >
+              </div>
+              <p>
+                A MERN-based B2B team collaboration and management platform.
+              </p>
+              <div class="tags">
+                <span>React</span><span>Node.js</span><span>MongoDB</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card">
+            <div class="project-icon attendx-icon">◉</div>
+            <div class="project-content">
+              <div class="project-title">
+                <h3>AttendX</h3>
+                <a
+                  href="https://github.com/Nokibulofficial18/AttendX"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open AttendX repository"
+                  >↗</a
+                >
+              </div>
+              <p>
+                AI-powered student attendance using face recognition and QR
+                scanning, with role-based access, registration, attendance
+                tracking and real-time reporting.
+              </p>
+              <div class="tags">
+                <span>AI</span><span>Face Recognition</span><span>QR</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Projects  Ends-->
+
+      <!-- Achivements starts -->
+      <section class="highlights container" id="achievements">
+        <div class="achievement-column">
+          <div class="section-heading">
+            <h2>Achievements</h2>
+            <span></span>
+          </div>
+          <article class="achievement-card glass-card">
+            <div class="laurel">❧</div>
+            <div class="trophy">🏆</div>
+            <div>
+              <h3>
+                Champion — Eastern IT PSTU IT Carnival<br />National Hackathon
+              </h3>
+              <p>Team: GSTU_Neuroblitzzzzzz</p>
+            </div>
+            <div class="laurel laurel-right">❧</div>
+          </article>
+        </div>
+
+        <div class="leadership-column">
+          <div class="section-heading">
+            <h2>Leadership &amp; Activities</h2>
+            <span></span>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="timeline-dot"></span
+              ><span class="timeline-icon">♟</span>
+              <div>
+                <h3>General Secretary, AI &amp; Innovation Club</h3>
+                <p>CSE Department, GSTU</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-dot"></span
+              ><span class="timeline-icon">&lt;/&gt;</span>
+              <div>
+                <h3>Former General Secretary, CSE Programming Club</h3>
+                <p>Organized programming contests and hackathons</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="more-achievements container">
+        <div class="section-heading">
+          <h2>More Achievements &amp; Competitive Programming</h2>
+          <span></span>
+        </div>
+        <div class="achievement-grid">
+          <article class="achievement-card glass-card">
+            <div class="rank-badge">01</div>
+            <div>
+              <h3>1st — GSTU Programming Club Contest</h3>
+              <p>Junior Category · August 2023</p>
+            </div>
+          </article>
+          <article class="achievement-card glass-card">
+            <div class="rank-badge">09</div>
+            <div>
+              <h3>9th — INNOVATEX Hackathon</h3>
+              <p>Bangladesh University of Business and Technology</p>
+            </div>
+          </article>
+          <article class="achievement-card glass-card">
+            <div class="rank-badge">18</div>
+            <div>
+              <h3>18th — SynergyX 2024</h3>
+              <p>Competitive programming</p>
+            </div>
+          </article>
+          <article class="achievement-card glass-card">
+            <div class="rank-badge">31</div>
+            <div>
+              <h3>31st — PSTU Inter-University Programming Contest</h3>
+              <p>South Zone</p>
+            </div>
+          </article>
+          <article class="achievement-card glass-card">
+            <div class="rank-badge">★</div>
+            <div>
+              <h3>On-Campus Champion — Hult Prize 2024</h3>
+              <p>BSMRSTU</p>
+            </div>
+          </article>
+          <article class="achievement-card glass-card">
+            <div class="rank-badge">🥉</div>
+            <div>
+              <h3>3rd Place, Bronze Award — INNOVATION Spark 1.0</h3>
+              <p>National Level · BYSIS · 2025</p>
+            </div>
+          </article>
+          <article class="achievement-card glass-card">
+            <div class="rank-badge">ICPC</div>
+            <div>
+              <h3>Participant — 2025 ICPC Dhaka Regional</h3>
+              <p>International Collegiate Programming Contest</p>
+            </div>
+          </article>
+        </div>
+        <div class="cp-stats">
+          <article class="cp-card glass-card">
+            <strong>1,500+</strong
+            ><span>Problems solved across online judges</span>
+          </article>
+          <article class="cp-card glass-card">
+            <strong>1672 · 3★</strong><span>CodeChef maximum rating</span>
+          </article>
+          <article class="cp-card glass-card">
+            <strong>1359 · Pupil</strong><span>Codeforces maximum rating</span>
+          </article>
+          <article class="cp-card glass-card">
+            <strong>145th Global</strong
+            ><span>Best CodeChef contest rank · Div. 3</span>
+          </article>
+          <article class="cp-card glass-card">
+            <strong>2403rd Global</strong
+            ><span>Best Codeforces contest rank · Div. 4</span>
+          </article>
+          <article class="cp-card glass-card">
+            <strong>20+ contests</strong
+            ><span>800+ problems on Codeforces</span>
+          </article>
+        </div>
+      </section>
+      <!-- Achivements ends -->
+
+      <!-- Contact Starts -->
+      <section class="contact-banner container" id="contact">
+        <div class="rocket">➤</div>
+        <div class="contact-copy">
+          <h2>Let's Build Something <span>Impactful</span> Together</h2>
+          <p>
+            I'm open to research, internships, and collaboration opportunities.
+          </p>
+        </div>
+        <a
+          class="button button-primary"
+          href="mailto:nokibulofficial18@gmail.com"
+          >✉ &nbsp; Contact Me <span>→</span></a
+        >
+      </section>
+      <!-- Contact Ends -->
+    </main>
+
+    <footer class="footer container">
+      <p>© 2026 Nokibul Hasan Mojumder Tasir. Built with HTML &amp; CSS.</p>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
