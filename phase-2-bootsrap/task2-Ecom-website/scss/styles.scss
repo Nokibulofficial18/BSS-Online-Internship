@@ -103,11 +103,13 @@ body {
 //     background-color: #000;
 // }
 
-.new-arrivals-h2 {
+.new-arrivals-h2,
+.top-selling-h2 {
   font-size: 48px;
 }
 
-.new-arrivals-body {
+.new-arrivals-body,
+.top-selling-body {
   scrollbar-width: none;
 }
 
@@ -131,6 +133,10 @@ body {
 
 .new-arrivals-btn{
     border: solid 2px #0000001A;
+}
+
+.hr-line{
+   border: 1px solid #0000001A;
 }
 
 @media (max-width: 768px) {
