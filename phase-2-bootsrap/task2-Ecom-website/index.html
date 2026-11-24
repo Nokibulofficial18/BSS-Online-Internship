@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
-    />
+    /> -->
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -17,7 +18,127 @@
     <title>SHOP.CO</title>
   </head>
   <body>
-    <h1>SHOP.CO</h1>
+    <!-- Announcement alert -->
+    <div
+      class="alert bg-black alert-dismissible rounded-0 fade show d-flex justify-content-center align-items-center p-2"
+      role="alert"
+    >
+      <div class="alert-text text-white text-center font-14-px">
+        Sign up and get 20% off to your first order.
+        <a href="#footer" class="alert-link text-white">Sign Up Now</a>
+      </div>
+
+      <button
+        type="button"
+        class="btn-close btn-close-white d-md-block d-none pb-1"
+        data-bs-dismiss="alert"
+      ></button>
+    </div>
+
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container">
+        <button
+          class="navbar-toggler border-0 mb-3 me-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Brand Name -->
+        <a href="#" class="navbar-brand">
+          <h2 class="text-black font-family-ic fs-2" style="text-align: start">
+            SHOP.CO
+          </h2>
+        </a>
+
+        <!-- Search box/button and other buttons -->
+        <div
+          class="navbar-icons-container d-flex gap-4 align-items-center justify-content-end flex-grow-1 ms-lg-4 order-lg-3"
+        >
+          <div
+            class="input-group rounded-pill overflow-hidden d-none d-lg-flex flex-grow-1"
+            style="max-width: 577px"
+          >
+            <span
+              class="input-group-text border-0"
+              style="background-color: #f0f0f0; color: rgba(0, 0, 0, 0.4)"
+              ><i class="fas fa-search"></i
+            ></span>
+            <input
+              type="text"
+              class="form-control border-0"
+              style="background-color: #f0f0f0"
+              placeholder="Search for products..."
+            />
+          </div>
+
+          <div class="navbar-icons d-flex align-items-center gap-3">
+            <img
+              src="./images/search-icon.svg"
+              class="d-lg-none"
+              alt="search"
+            />
+            <img src="./images/cart-icon.svg" alt="cart" />
+            <img src="./images/user-icon.svg" alt="user" />
+          </div>
+        </div>
+
+        <!-- Navbar Menu Items -->
+        <div
+          class="collapse navbar-collapse flex-grow-0 order-lg-2"
+          id="navbarNavDropdown"
+        >
+          <ul
+            class="navbar-nav gap-lg-3 flex-grow-1 mx-auto mx-xl-5 justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <div class="dropdown">
+                <button
+                  class="nav-link text-black dropdown-toggle border-0"
+                  type="button"
+                  id="shopDropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop
+                </button>
+
+                <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+                  <li>
+                    <a class="dropdown-item" href="category.html">Casual</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="category.html">Formal</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="category.html">Party</a>
+                  </li>
+                  <li><a class="dropdown-item" href="category.html">Gym</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#top-selling" class="nav-link text-black">On Sale</a>
+            </li>
+            <li class="nav-item">
+              <a href="#new-arrivals" class="nav-link text-black"
+                >New Arrivals</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#brands" class="nav-link text-black">Brands</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
