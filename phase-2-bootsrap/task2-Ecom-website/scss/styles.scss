@@ -101,6 +101,12 @@ body {
   object-position: 92%;
   height: 663px;
 }
+.op-10{
+    opacity: 10%;
+}
+// .brands{
+//     background-color: #000;
+// }
 
 @media (max-width: 768px) {
   .alert-text {
@@ -111,4 +117,20 @@ body {
     margin-right: auto !important;
     padding-top: auto;
   }
+  .header-heading {
+        font-size: 36px !important;
+        line-height: 34px;
+    }
+    .header .image-container img {
+        height: 500px !important;
+    }
+    .header .decoration-star {
+        height: 76px;
+        width: 76px;
+    }
+    .header .decoration-star-2 {
+        height: 44px;
+        width: 44px;
+        top: 300px;
+    }
 }
