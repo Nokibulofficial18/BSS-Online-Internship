@@ -182,6 +182,15 @@ body {
   left: 25%;
 }
 
+.customer-cards {
+    justify-content: center;
+}
+.customer-card {
+    height: 100%;
+}
+
+
+
 @media (max-width: 768px) {
   .alert-text {
     font-size: 12px;
@@ -235,5 +244,9 @@ body {
   
   .gym-img{
     top: -150%;
+  }
+
+  .customer-cards{
+    justify-content: start;
   }
 }
