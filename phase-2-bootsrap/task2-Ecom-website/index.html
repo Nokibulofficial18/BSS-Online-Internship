@@ -786,223 +786,167 @@
     </section>
     <!-- Customers section ends -->
     <!-- Footer section Starts -->
-    <footer class="footer pt-2 pb-5 bg-light" id="footer">
-      <!-- Newsletter -->
+
+    <footer class="footer bg-light pt-5 pb-4" id="footer">
+      <!-- Newsletter Section -->
       <div class="container">
-        <div class="newsletter-container mx-4 mb-4">
-          <div class="row bg-black rounded-4 p-lg-4 p-2 py-3 gy-4">
-            <div class="col-md-6">
-              <h2 class="font-family-ic fs-1 text-white text-uppercase">
-                Stay Upto date about our latest offers
+        <div class="newsletter-container mb-5">
+          <div
+            class="row bg-black rounded-4 p-lg-5 p-4 gy-4 align-items-center"
+          >
+            <div class="col-lg-6">
+              <h2 class="font-family-ic fs-1 text-white text-uppercase mb-0">
+                Stay Up To Date About Our Latest Offers
               </h2>
             </div>
-            <div class="col-md-4 offset-md-2 d-flex flex-column gap-3">
-              <form>
+
+            <div class="col-lg-5 offset-lg-1">
+              <form class="d-flex flex-column gap-3">
                 <div
-                  class="input-group rounded-pill overflow-hidden d-flex"
-                  style="height: 48px"
+                  class="input-group rounded-pill overflow-hidden newsletter-input"
                 >
-                  <span class="input-group-text border-0 bg-white ps-3"
-                    ><img src="images/email.svg" alt=""
-                  /></span>
+                  <span class="input-group-text border-0 bg-white ps-3">
+                    <img src="images/email.svg" alt="Email" />
+                  </span>
+
                   <input
                     type="email"
                     class="form-control border-0 fs-6"
                     placeholder="Enter your email address"
                   />
                 </div>
-              </form>
-              <div class="d-grid">
+
                 <button
-                  class="btn btn-light text-black rounded-5 fs-6"
-                  style="height: 48px; font-weight: 500"
+                  type="submit"
+                  class="btn btn-light text-black rounded-pill newsletter-btn"
                 >
                   Subscribe to Newsletter
                 </button>
-              </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="row py-3 gy-3 bg-xl-color links">
-        <div
-          class="col-md-3 d-flex flex-column justify-content-space-beetween gap-2"
-        >
-          <h2 class="font-family-ic fs-2 ms-2">SHOP.CO</h2>
-          <p class="fs-6 ms-2 color-extra text-black">
-            We have clothes that suits your style and which you're proud to
-            wear. From women to men.
-          </p>
-          <div class="footer-icons mt-3">
-            <span class="fa-stack fa-lg">
-              <a href="#">
-                <i class="fas fa-circle fa-stack-2x text-primary op-20"></i>
-                <i class="fas fa-circle fa-stack-1x text-white font-r"></i>
-                <i class="fab fa-twitter fa-stack-1x text-black"></i>
+      <!-- Footer Links Section -->
+      <div class="container">
+        <div class="row py-4 gy-4 footer-links">
+          <!-- Brand Information -->
+          <div class="col-lg-3 col-md-12">
+            <h2 class="font-family-ic fs-2 mb-3">SHOP.CO</h2>
+
+            <p class="fs-6 text-black footer-description">
+              We have clothes that suit your style and which you're proud to
+              wear. From women to men.
+            </p>
+
+            <div class="footer-icons d-flex gap-3 mt-4">
+              <a href="#" class="footer-social">
+                <i class="fab fa-twitter"></i>
               </a>
-            </span>
-            <span class="fa-stack fa-lg">
-              <a href="#">
-                <i class="fas fa-circle fa-stack-2x text-primary op-20"></i>
-                <i class="fas fa-circle fa-stack-1x text-white font-r"></i>
-                <i class="fab fa-facebook fa-stack-1x text-black"></i>
+
+              <a href="#" class="footer-social">
+                <i class="fab fa-facebook-f"></i>
               </a>
-            </span>
-            <span class="fa-stack fa-lg">
-              <a href="#">
-                <i class="fas fa-circle fa-stack-2x text-primary op-20"></i>
-                <i class="fas fa-circle fa-stack-1x text-white font-r"></i>
-                <i class="fab fa-instagram fa-stack-1x text-black"></i>
+
+              <a href="#" class="footer-social">
+                <i class="fab fa-instagram"></i>
               </a>
-            </span>
-            <span class="fa-stack fa-lg">
-              <a href="#">
-                <i class="fas fa-circle fa-stack-2x text-primary op-20"></i>
-                <i class="fas fa-circle fa-stack-1x text-white font-r"></i>
-                <i class="fab fa-github fa-stack-1x text-black"></i>
+
+              <a href="#" class="footer-social">
+                <i class="fab fa-github"></i>
               </a>
-            </span>
+            </div>
+          </div>
+
+          <!-- Company -->
+          <div class="col-lg-2 col-md-3 col-6">
+            <h2 class="footer-heading">Company</h2>
+
+            <ul class="list-unstyled footer-list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Works</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+
+          <!-- Help -->
+          <div class="col-lg-2 col-md-3 col-6">
+            <h2 class="footer-heading">Help</h2>
+
+            <ul class="list-unstyled footer-list">
+              <li><a href="#">Customer Support</a></li>
+              <li><a href="#">Delivery Details</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <!-- FAQ -->
+          <div class="col-lg-2 col-md-3 col-6">
+            <h2 class="footer-heading">FAQ</h2>
+
+            <ul class="list-unstyled footer-list">
+              <li><a href="#">Account</a></li>
+              <li><a href="#">Manage Deliveries</a></li>
+              <li><a href="#">Orders</a></li>
+              <li><a href="#">Payments</a></li>
+            </ul>
+          </div>
+
+          <!-- Resources -->
+          <div class="col-lg-3 col-md-3 col-6">
+            <h2 class="footer-heading">Resources</h2>
+
+            <ul class="list-unstyled footer-list">
+              <li><a href="#">Free eBooks</a></li>
+              <li><a href="#">Development Tutorial</a></li>
+              <li><a href="#">How to - Blog</a></li>
+              <li><a href="#">Youtube Playlist</a></li>
+            </ul>
           </div>
         </div>
-        <div class="col-md-8 offset-md-1">
-          <div class="row">
-            <div class="col-md-3 col-6 my-2 company">
-              <h2 class="fs-6 text-uppercase text-black mb-4 ">Company</h2>
-              <ul class="list-unstyled d-flex flex-column gap-3">
-                <li>
-                  <a href="#" class="text-decoration-none text-black op-60"
-                    >About</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="text-decoration-none text-black op-60"
-                    >Features</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="text-decoration-none text-black op-60"
-                    >Works</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="text-decoration-none text-black op-60"
-                    >Career</a
-                  >
-                </li>
-              </ul>
-            </div>
 
-            <div class="col-md-3 my-2">
-              <h2 class="fs-6 text-uppercase text-black mb-4">Help</h2>
-              <ul class="list-unstyled d-flex flex-column gap-3">
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Customer Support</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Delivery Details</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Terms & Conditions</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Privacy Policy</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-3 my-2">
-              <h2 class="fs-6 text-uppercase text-black mb-4">FAQ</h2>
-              <ul class="list-unstyled d-flex flex-column gap-3">
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Account</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Manage Deliveries</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Orders</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Payments</a
-                  >
-                </li>
-              </ul>
-            </div>
+        <hr class="footer-divider" />
 
-             <div class="col-md-3 my-2">
-              <h2 class="fs-6 text-uppercase text-black mb-4">Resources</h2>
-              <ul class="list-unstyled d-flex flex-column gap-3">
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Free eBooks</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Development Tutorial</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >How to - Blog</a
-                  >
-                </li>
-                <li>
-                  <a href="" class="text-decoration-none text-black op-60"
-                    >Youtube Playlist</a
-                  >
-                </li>
-              </ul>
-            </div>
+        <!-- Copyright and Payment Methods -->
+        <div class="row align-items-center gy-3 footer-bottom">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0 color-black footer-copyright">
+              Shop.co &copy; 2000-2023, All Rights Reserved
+            </p>
+          </div>
 
+          <div class="col-md-6">
+            <div
+              class="payment-cards d-flex justify-content-center justify-content-md-end gap-2"
+            >
+              <a href="#" class="payment-card-img">
+                <img src="images/visa.svg" alt="Visa" />
+              </a>
+
+              <a href="#" class="payment-card-img">
+                <img src="images/master.svg" alt="Mastercard" />
+              </a>
+
+              <a href="#" class="payment-card-img">
+                <img src="images/paypal.svg" alt="PayPal" />
+              </a>
+
+              <a href="#" class="payment-card-img">
+                <img src="images/applepay.svg" alt="Apple Pay" />
+              </a>
+
+              <a href="#" class="payment-card-img">
+                <img src="images/googlepay.svg" alt="Google Pay" />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="hr-line container"></div>
-
-      <div class="row py-3 gy-3 d-flex flex-column justify-content-center align-items-center links">
-        <div class="col-md-6 copyright-txt">
-          <p class="font-family-ic m-0 color-extra">
-            Shop.co &copy; 2000-2023, All Rights Reserved
-          </p>
-        </div>
-
-        <div class="col-md-6 d-flex justify-content-end gap-2 payment-cards">
-          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
-            <img src="images/visa.svg" class="img-fluid" alt="">
-          </a>
-          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
-            <img src="images/master.svg" class="img-fluid" alt="">
-          </a>
-          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
-            <img src="images/paypal.svg" class="img-fluid" alt="">
-          </a>
-          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
-            <img src="images/applepay.svg" class="img-fluid" alt="">
-          </a>
-          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
-            <img src="images/googlepay.svg" class="img-fluid" alt="">
-          </a>
-        </div>
-
       </div>
     </footer>
+
     <!-- Footer section Ends -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
