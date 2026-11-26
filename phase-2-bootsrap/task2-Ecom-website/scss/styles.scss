@@ -22,7 +22,6 @@ body {
   font-size: 48px;
 }
 
-
 .navbar {
   transition: all 0.5s ease-in-out;
 }
@@ -113,7 +112,8 @@ body {
   scrollbar-width: none;
 }
 
-.card-image img {
+.card-image img,
+.browse-style-card-image {
   height: 298px;
 }
 
@@ -126,17 +126,60 @@ body {
   color: #ff3333;
   padding: 6px 14px 6px 14px;
 }
-.prev-price{
-    font-weight: 200;
-    line-height: normal
+.prev-price {
+  font-weight: 200;
+  line-height: normal;
 }
 
-.new-arrivals-btn{
-    border: solid 2px #0000001A;
+.new-arrivals-btn {
+  border: solid 2px #0000001a;
 }
 
-.hr-line{
-   border: 1px solid #0000001A;
+.hr-line {
+  border: 1px solid #0000001a;
+}
+
+.browse-cont {
+  background-color: gray;
+}
+.browse-style-card {
+  height: 289x;
+  transition: all 0.3s ease-in-out;
+}
+.browse-style-card:hover {
+  transform: scale(1.04);
+}
+
+.browse-style-card .card-image-overlay .card-title {
+  font-size: 36px;
+  color: var(--primary);
+  z-index: 1;
+}
+
+.casual-img {
+  position: absolute;
+  transform: scaleX(-1) scale(2.5);
+  top: 20%;
+  left: -15%;
+}
+
+.formal-img {
+  position: absolute;
+  top: -2%;
+  left: 46%;
+  transform: scale(1.5);
+}
+
+.party-img {
+  position: absolute;
+  top: -50%;
+  left: 15%;
+}
+
+.gym-img {
+  position: absolute;
+  top: -45%;
+  left: 25%;
 }
 
 @media (max-width: 768px) {
@@ -163,5 +206,34 @@ body {
     height: 44px;
     width: 44px;
     top: 300px;
+  }
+
+  .xl-text{
+    font-size: 32px;
+  }
+
+  .card-image img{
+    height: 198px;
+    width: 200px;
+  }
+
+  .card-title{
+    font-size: 15px !important;
+  }
+
+  .browse-style-card{
+    height: 190px !important;
+  }
+
+  .browse-style-card .card-title{
+    font-size: 24px !important;
+  }
+
+  .party-img{
+    top: -70%;
+  }
+  
+  .gym-img{
+    top: -150%;
   }
 }
