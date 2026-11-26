@@ -143,11 +143,19 @@ body {
   background-color: gray;
 }
 .browse-style-card {
-  height: 289x;
+  height: 289px;
   transition: all 0.3s ease-in-out;
 }
 .browse-style-card:hover {
   transform: scale(1.04);
+}
+.browse-style-card img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  inset: 0;
 }
 
 .browse-style-card .card-image-overlay .card-title {
@@ -183,13 +191,30 @@ body {
 }
 
 .customer-cards {
-    justify-content: center;
+  justify-content: center;
 }
 .customer-card {
-    height: 100%;
+  height: 100%;
 }
-
-
+.newsletter-container {
+  margin-top: -150px;
+}
+.op-20 {
+  opacity: 20%;
+}
+.font-r {
+  font-size: 2.3rem;
+}
+.op-60 {
+  opacity: 60%;
+}
+.payment-card-img {
+  width: 46.61428451538086;
+  height: 30.030357360839844;
+  opacity: 1;
+  border-radius: 5.38px;
+  border-width: 0.22px;
+}
 
 @media (max-width: 768px) {
   .alert-text {
@@ -217,36 +242,52 @@ body {
     top: 300px;
   }
 
-  .xl-text{
+  .xl-text {
     font-size: 32px;
   }
 
-  .card-image img{
+  .card-image img {
     height: 198px;
     width: 200px;
   }
 
-  .card-title{
+  .card-title {
     font-size: 15px !important;
   }
 
-  .browse-style-card{
+  .browse-style-card {
     height: 190px !important;
   }
 
-  .browse-style-card .card-title{
+  .browse-style-card .card-title {
     font-size: 24px !important;
   }
 
-  .party-img{
+  .party-img {
     top: -70%;
   }
-  
-  .gym-img{
+
+  .gym-img {
     top: -150%;
   }
 
-  .customer-cards{
+  .customer-cards {
     justify-content: start;
+  }
+  
+ .links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+ }
+
+  .payment-card-img {
+    width: 39.9567985534668;
+    height: 25.74139976501465;
+    opacity: 1;
+    border-radius: 4.61px;
+    border-width: 0.19px;
   }
 }

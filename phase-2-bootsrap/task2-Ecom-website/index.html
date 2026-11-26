@@ -564,7 +564,7 @@
     <section class="browse-style mt-7 mb-4 mx-3">
       <div class="container py-5 rounded-4 browse-cont">
         <div class="row mb-5">
-          <div class="col-10 offset-1 align-items-center text-cennter">
+          <div class="col-10 offset-1 align-items-center text-center">
             <h2 class="font-family-ic xl-text text-uppercase text-center">
               BROWSE BY dress STYLE
             </h2>
@@ -656,103 +656,354 @@
               Our Happy Customers
             </h2>
           </div>
-           <div class="col-3 d-flex justify-content-end align-items-end">
-            <button class="btn text-primary" id="prevReviewBtn"><i class="fa-solid fa-arrow-left"></i></button>
-            <button class="btn text-primary" id="nextReviewBtn"><i class="fa-solid fa-arrow-right"></i></button>
+          <div class="col-3 d-flex justify-content-end align-items-end">
+            <button class="btn text-primary" id="prevReviewBtn">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="btn text-primary" id="nextReviewBtn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
           </div>
         </div>
       </div>
 
-       <div class="review-container position-relative">
-        <div class="blur-left position-absolute top-0 start-0 h-100 d-md-block d-none" style="backdrop-filter: blur(1px); width: 13%; z-index: 2;"></div>
-          <div class="overflow-hidden" id="review-customer-cards">
-            <div class="row my-5 flex-nowrap customer-cards" id="customer-cards">
-              <!-- Review 1 -->
-              <div class="col-lg-3 col-md-6">
-                <div class="card p-4 mx-2 my-3 rounded-4 customer-card">
-                  <div class="d-flex text-warning gap-1 mb-3">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="card-title d-flex align-items-center gap-2 mb-2">
-                    <h2 class="fw-bold fs-5 text-black mb-0">Sarah M.</h2>
-                    <i class="fa-solid fa-circle-check" style="color: #01AB31;"></i>
-                  </div>
-                  <p class="fs-6" style="font-weight: 400; color: #00000099;">
-                    "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”
-                  </p>
+      <div class="review-container position-relative">
+        <div
+          class="blur-left position-absolute top-0 start-0 h-100 d-md-block d-none"
+          style="backdrop-filter: blur(1px); width: 13%; z-index: 2"
+        ></div>
+        <div class="overflow-hidden" id="review-customer-cards">
+          <div class="row my-5 flex-nowrap customer-cards" id="customer-cards">
+            <!-- Review 1 -->
+            <div class="col-lg-3 col-md-6">
+              <div class="card p-4 mx-2 my-3 rounded-4 customer-card">
+                <div class="d-flex text-warning gap-1 mb-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
+                <div class="card-title d-flex align-items-center gap-2 mb-2">
+                  <h2 class="fw-bold fs-5 text-black mb-0">Sarah M.</h2>
+                  <i
+                    class="fa-solid fa-circle-check"
+                    style="color: #01ab31"
+                  ></i>
+                </div>
+                <p class="fs-6" style="font-weight: 400; color: #00000099">
+                  "I'm blown away by the quality and style of the clothes I
+                  received from Shop.co. From casual wear to elegant dresses,
+                  every piece I've bought has exceeded my expectations.”
+                </p>
               </div>
+            </div>
 
-              <!-- Review 2 -->
-             <div class="col-lg-3 col-md-6">
-                <div class="card p-4 mx-2 rounded-4 customer-card">
-                  <div class="d-flex text-warning gap-1 mb-3">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="card-title d-flex align-items-center gap-2 mb-2">
-                    <h2 class="fw-bold fs-5 text-black mb-0">Alex K.</h2>
-                    <i class="fa-solid fa-circle-check" style="color: #01AB31;"></i>
-                  </div>
-                  <p class="fs-6" style="font-weight: 400; color: #00000099;">
-                    "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”
-                  </p>
+            <!-- Review 2 -->
+            <div class="col-lg-3 col-md-6">
+              <div class="card p-4 mx-2 rounded-4 customer-card">
+                <div class="d-flex text-warning gap-1 mb-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
+                <div class="card-title d-flex align-items-center gap-2 mb-2">
+                  <h2 class="fw-bold fs-5 text-black mb-0">Alex K.</h2>
+                  <i
+                    class="fa-solid fa-circle-check"
+                    style="color: #01ab31"
+                  ></i>
+                </div>
+                <p class="fs-6" style="font-weight: 400; color: #00000099">
+                  "Finding clothes that align with my personal style used to be
+                  a challenge until I discovered Shop.co. The range of options
+                  they offer is truly remarkable, catering to a variety of
+                  tastes and occasions.”
+                </p>
               </div>
+            </div>
 
-
-              <!-- Review 3 -->
-              <div class="col-lg-3 col-md-6">
-                <div class="card p-4 mx-2 rounded-4 customer-card">
-                  <div class="d-flex text-warning gap-1 mb-3">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="card-title d-flex align-items-center gap-2 mb-2">
-                    <h2 class="fw-bold fs-5 text-black mb-0">James L.</h2>
-                    <i class="fa-solid fa-circle-check" style="color: #01AB31;"></i>
-                  </div>
-                  <p class="fs-6" style="font-weight: 400; color: #00000099;">
-                    "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”
-                  </p>
+            <!-- Review 3 -->
+            <div class="col-lg-3 col-md-6">
+              <div class="card p-4 mx-2 rounded-4 customer-card">
+                <div class="d-flex text-warning gap-1 mb-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
+                <div class="card-title d-flex align-items-center gap-2 mb-2">
+                  <h2 class="fw-bold fs-5 text-black mb-0">James L.</h2>
+                  <i
+                    class="fa-solid fa-circle-check"
+                    style="color: #01ab31"
+                  ></i>
+                </div>
+                <p class="fs-6" style="font-weight: 400; color: #00000099">
+                  "As someone who's always on the lookout for unique fashion
+                  pieces, I'm thrilled to have stumbled upon Shop.co. The
+                  selection of clothes is not only diverse but also on-point
+                  with the latest trends.”
+                </p>
               </div>
+            </div>
 
-              <!-- Review 4 -->
-              <div class="col-lg-3 col-md-6">
-                <div class="card p-4 mx-2 rounded-4 customer-card">
-                  <div class="d-flex text-warning gap-1 mb-3">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="card-title d-flex align-items-center gap-2 mb-2">
-                    <h2 class="fw-bold fs-5 text-black mb-0">Mooen</h2>
-                    <i class="fa-solid fa-circle-check" style="color: #01AB31;"></i>
-                  </div>
-                  <p class="fs-6" style="font-weight: 400; color: #00000099;">
-                    "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”
-                  </p>
+            <!-- Review 4 -->
+            <div class="col-lg-3 col-md-6">
+              <div class="card p-4 mx-2 rounded-4 customer-card">
+                <div class="d-flex text-warning gap-1 mb-3">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
+                <div class="card-title d-flex align-items-center gap-2 mb-2">
+                  <h2 class="fw-bold fs-5 text-black mb-0">Mooen</h2>
+                  <i
+                    class="fa-solid fa-circle-check"
+                    style="color: #01ab31"
+                  ></i>
+                </div>
+                <p class="fs-6" style="font-weight: 400; color: #00000099">
+                  "As someone who's always on the lookout for unique fashion
+                  pieces, I'm thrilled to have stumbled upon Shop.co. The
+                  selection of clothes is not only diverse but also on-point
+                  with the latest trends.”
+                </p>
               </div>
             </div>
           </div>
-        <div class="blur-right position-absolute top-0 end-0 h-100 d-md-block d-none" style="backdrop-filter: blur(1px); width: 13%; z-index: 2;"></div>
+        </div>
+        <div
+          class="blur-right position-absolute top-0 end-0 h-100 d-md-block d-none"
+          style="backdrop-filter: blur(1px); width: 13%; z-index: 2"
+        ></div>
       </div>
     </section>
     <!-- Customers section ends -->
+    <!-- Footer section Starts -->
+    <footer class="footer pt-2 pb-5 bg-light" id="footer">
+      <!-- Newsletter -->
+      <div class="container">
+        <div class="newsletter-container mx-4 mb-4">
+          <div class="row bg-black rounded-4 p-lg-4 p-2 py-3 gy-4">
+            <div class="col-md-6">
+              <h2 class="font-family-ic fs-1 text-white text-uppercase">
+                Stay Upto date about our latest offers
+              </h2>
+            </div>
+            <div class="col-md-4 offset-md-2 d-flex flex-column gap-3">
+              <form>
+                <div
+                  class="input-group rounded-pill overflow-hidden d-flex"
+                  style="height: 48px"
+                >
+                  <span class="input-group-text border-0 bg-white ps-3"
+                    ><img src="images/email.svg" alt=""
+                  /></span>
+                  <input
+                    type="email"
+                    class="form-control border-0 fs-6"
+                    placeholder="Enter your email address"
+                  />
+                </div>
+              </form>
+              <div class="d-grid">
+                <button
+                  class="btn btn-light text-black rounded-5 fs-6"
+                  style="height: 48px; font-weight: 500"
+                >
+                  Subscribe to Newsletter
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-3 gy-3 bg-xl-color links">
+        <div
+          class="col-md-3 d-flex flex-column justify-content-space-beetween gap-2"
+        >
+          <h2 class="font-family-ic fs-2 ms-2">SHOP.CO</h2>
+          <p class="fs-6 ms-2 color-extra text-black">
+            We have clothes that suits your style and which you're proud to
+            wear. From women to men.
+          </p>
+          <div class="footer-icons mt-3">
+            <span class="fa-stack fa-lg">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x text-primary op-20"></i>
+                <i class="fas fa-circle fa-stack-1x text-white font-r"></i>
+                <i class="fab fa-twitter fa-stack-1x text-black"></i>
+              </a>
+            </span>
+            <span class="fa-stack fa-lg">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x text-primary op-20"></i>
+                <i class="fas fa-circle fa-stack-1x text-white font-r"></i>
+                <i class="fab fa-facebook fa-stack-1x text-black"></i>
+              </a>
+            </span>
+            <span class="fa-stack fa-lg">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x text-primary op-20"></i>
+                <i class="fas fa-circle fa-stack-1x text-white font-r"></i>
+                <i class="fab fa-instagram fa-stack-1x text-black"></i>
+              </a>
+            </span>
+            <span class="fa-stack fa-lg">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x text-primary op-20"></i>
+                <i class="fas fa-circle fa-stack-1x text-white font-r"></i>
+                <i class="fab fa-github fa-stack-1x text-black"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <div class="col-md-8 offset-md-1">
+          <div class="row">
+            <div class="col-md-3 col-6 my-2 company">
+              <h2 class="fs-6 text-uppercase text-black mb-4 ">Company</h2>
+              <ul class="list-unstyled d-flex flex-column gap-3">
+                <li>
+                  <a href="#" class="text-decoration-none text-black op-60"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-black op-60"
+                    >Features</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-black op-60"
+                    >Works</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-black op-60"
+                    >Career</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 my-2">
+              <h2 class="fs-6 text-uppercase text-black mb-4">Help</h2>
+              <ul class="list-unstyled d-flex flex-column gap-3">
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Customer Support</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Delivery Details</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Terms & Conditions</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 my-2">
+              <h2 class="fs-6 text-uppercase text-black mb-4">FAQ</h2>
+              <ul class="list-unstyled d-flex flex-column gap-3">
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Account</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Manage Deliveries</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Orders</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Payments</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+             <div class="col-md-3 my-2">
+              <h2 class="fs-6 text-uppercase text-black mb-4">Resources</h2>
+              <ul class="list-unstyled d-flex flex-column gap-3">
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Free eBooks</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Development Tutorial</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >How to - Blog</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none text-black op-60"
+                    >Youtube Playlist</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="hr-line container"></div>
+
+      <div class="row py-3 gy-3 d-flex flex-column justify-content-center align-items-center links">
+        <div class="col-md-6 copyright-txt">
+          <p class="font-family-ic m-0 color-extra">
+            Shop.co &copy; 2000-2023, All Rights Reserved
+          </p>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end gap-2 payment-cards">
+          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
+            <img src="images/visa.svg" class="img-fluid" alt="">
+          </a>
+          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
+            <img src="images/master.svg" class="img-fluid" alt="">
+          </a>
+          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
+            <img src="images/paypal.svg" class="img-fluid" alt="">
+          </a>
+          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
+            <img src="images/applepay.svg" class="img-fluid" alt="">
+          </a>
+          <a href="" class="text-decoration-none bg-white d-flex justify-content-center align-items-center rounded-3 payment-card-img">
+            <img src="images/googlepay.svg" class="img-fluid" alt="">
+          </a>
+        </div>
+
+      </div>
+    </footer>
+    <!-- Footer section Ends -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
